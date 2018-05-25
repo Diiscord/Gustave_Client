@@ -1,0 +1,161 @@
+﻿{
+	"description": {
+		"rank": "5",
+		"price_rank": "3",
+		"difficulty": "2",
+		"name": "Poulet, riz et champignon à la crème",
+		"cook_time": "20",
+		"prepa_time": "20",
+		"break_time": "0",
+		"total_time": "40",
+		"desc": "",
+		"eater_nbr": "2",
+		"tags": [
+			""
+		]
+	},
+	"tools": [{
+		"name": "couteau",
+		"desc": "un couteau",
+		"icone": "l'image à l'addr",
+		"quantity": "1"
+	}],
+	"ingredients": [{
+			"name": "Poitrine de poulet",
+			"desc": "un filet de lotte",
+			"icone": "image",
+			"quantity": "2 filets (environ 200g chacun)",
+			"unit": "g"
+		},
+		{
+			"name": "Champignons",
+			"desc": "des tranches de lard fumé ou pas",
+			"icone": "image",
+			"quantity": "4 à 6 tranches de lard",
+			"unit": "unité"
+		},
+		{
+			"name": "Riz Basmati",
+			"desc": "branches de thym",
+			"icone": "image",
+			"quantity": "2 branches",
+			"unit": "unité"
+		},
+		{
+			"name": "Crème Fraiche",
+			"desc": "branches de thym",
+			"icone": "image",
+			"quantity": "2 branches",
+			"unit": "unité"
+		}
+	],
+	"steps": [{
+			"id": 0,
+			"info": {
+				"icone": "addr",
+				"desc": "Poulet, riz et champignon à la crème"
+			},
+			"text": "Poulet, riz et champignon à la crème",
+			"tip": "",
+			"video": [
+				"adresse d'une vidéo",
+				"autre addr"
+			],
+
+
+			"image": 
+				"img1"
+			,
+			"animation_gustave": "56",
+			"timer_flag": 0,
+			"video_flag":0
+		},
+		{
+			"id": 1,
+			"info": {
+				"icone": "addr",
+				"desc": "Couper les ingrégients"
+			},
+			"text": "Couper séparément le poulet et les champignons.",
+			"tip": "",
+			"video": [
+				"gordon_ramsay"
+			],
+
+
+			"image": 
+				"img1"
+			,
+			"animation_gustave": "56",
+			"timer_flag": 0,
+			"video_flag": 0
+		},
+
+
+		{
+			"id": 2,
+			"info": {
+				"icone": "addr",
+				"desc": "Ajouter le thym."
+			},
+			"text": "Cuire le poulet et le riz séparément.",
+			"tip": "Vous pouvez également poivrer si vous le désirez.",
+			"video": [
+				"adresse d'une vidéo",
+				"autre addr"
+			],
+
+
+			"image": 
+				"img2"
+			,
+			"animation_gustave": "56",
+			"timer_flag": 0,
+			"video_flag": 0
+		},
+
+
+		{
+			"id": 3,
+			"info": {
+				"icone": "addr",
+				"desc": "Larder la lotte "
+			},
+			"text": "Cuire les champignons avec la crème.",
+			"tip": "Mettez des cures dents pour faire tenir le lard si besoin.",
+			"video": [
+				"adresse d'une vidéo",
+				"autre addr"
+			],
+
+
+			"image": 
+				"img3"
+			,
+			"animation_gustave": "56",
+			"timer_flag": 0,
+			"video_flag": 0
+		},
+
+
+		{
+			"id": 4,
+			"info": {
+				"icone": "addr",
+				"desc": "Cuisson de la lotte"
+			},
+			"text": "Servez et dégustez.",
+			"tip": "Préchaffez votre four.",
+			"video": [
+				"adresse d'une vidéo",
+				"autre addr"
+			],
+			"image": 
+				"img4"
+			,
+			"animation_gustave": "56",
+			"timer_flag": 0,
+			"video_flag":0
+		}
+	]
+}
