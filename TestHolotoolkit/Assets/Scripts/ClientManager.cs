@@ -48,17 +48,17 @@ public class ClientManager : MonoBehaviour {
 
     public void LoadRecipeScene()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     public void LoadMenuScene()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(01);
     }
 
     public void LoadConnectMenuScene()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(0);
     }
 
     public ClientManager.Command checkCommands()
