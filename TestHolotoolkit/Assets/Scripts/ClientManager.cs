@@ -35,6 +35,7 @@ public class ClientManager : MonoBehaviour {
             DontDestroyOnLoad(this.gameObject);
             created = true;
             Debug.Log("Awake: " + this.gameObject);
+
         }
     }
 
@@ -53,7 +54,7 @@ public class ClientManager : MonoBehaviour {
 
     public void LoadMenuScene()
     {
-        SceneManager.LoadScene(01);
+        SceneManager.LoadScene(1);
     }
 
     public void LoadConnectMenuScene()
@@ -75,6 +76,7 @@ public class ClientManager : MonoBehaviour {
     public void initJsonReader()
     {
         jsonRecipeReader = new JsonRecipeReader();
+
     }
 
     public JsonRecipeReader getJsonReader()
